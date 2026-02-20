@@ -56,3 +56,20 @@
             <a href="#" class="btn">v more </a>
         </div>
     </section>
+
+
+
+     <-- smooth scrolling js code by vivek -->
+
+                <script>
+        document.querySelectorAll('a').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+
+                       
