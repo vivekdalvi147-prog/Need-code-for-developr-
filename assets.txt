@@ -1,0 +1,10 @@
+vivek.jpg (Main top background)
+V1.jpg,
+V2.jpg, 
+V3.jpg, 
+V4.jpg (For the 4 service cards)
+p1.jpg, 
+p2.jpg, 
+p3.jpg, 
+p4.jpg (For the photo gallery)
+bg.jpg (For the contact section background)
