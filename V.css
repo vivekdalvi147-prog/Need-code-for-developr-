@@ -17,7 +17,7 @@
 
 
 
-    <!--Smooth Scrolling code by vivek -->
+        <!-- Script for Smooth Scrolling -->
     <script>
         document.querySelectorAll('a').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
@@ -33,5 +33,6 @@
                 }
             });
         });
+    </script>
 
                        
