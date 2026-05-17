@@ -1,248 +1,133 @@
-# 🤖 Bol-AI
+# Bol-AI v1.0
 
 <p align="center">
   <img src="https://i.ibb.co/s9X3yR1f/In-Shot-20260117-214933669.jpg" width="230" alt="Bol-AI Logo"/>
 </p>
 
 <h1 align="center">Bol-AI</h1>
-
-<h3 align="center">
-Custom Conversational AI Assistant
-</h3>
-
-<p align="center">
-Developed & Engineered by Vivek Vijay Dalvi • MAHAVEER AI
-</p>
-
-<p align="center">
-  <img src="https://i.ibb.co/67Y0XcyV/v-1.png" width="850" alt="India Flag Banner"/>
-</p>
-
-<p align="center">
-Intelligent • Conversational • Optimized • Fine-Tuned
-</p>
+<h3 align="center">A Custom, Lightweight Conversational AI Assistant</h3>
+<p align="center">Developed & Engineered by Vivek Vijay Dalvi • MAHAVEER AI</p>
 
 ---
 
-# 📌 About Bol-AI
+## 📌 About Bol-AI
 
-Bol-AI is a custom conversational AI assistant developed and fine-tuned by Vivek Vijay Dalvi under MAHAVEER AI.
+Bol-AI is a custom conversational AI assistant developed and fine-tuned by Vivek Vijay Dalvi under **MAHAVEER AI**. This project focuses on delivering a highly optimized, lightweight, and intelligent conversational experience that can run on standard hardware, including mobile devices.
 
-The project focuses on:
-- Intelligent AI conversations
-- Human-like response generation
-- Assistant personality systems
-- Conversational optimization
-- Smart communication behavior
-- AI identity systems
-- Fine-tuned assistant interaction
-- Enhanced conversational intelligence
-- Lightweight AI deployment
-- Optimized AI response handling
+The model has been engineered with a custom identity, enhanced with multilingual datasets (English, Marathi, Hindi), and fine-tuned for superior instruction-following and coding assistance.
 
-Bol-AI was customized with additional conversational data, response tuning, identity engineering, personality optimization, and assistant behavior enhancements.
+- **Official Documentation:** [bol-ai-docs.web.app](https://bol-ai-docs.web.app)
 
 ---
 
-# 🌐 Official Documentation
+## ✨ Core Features
 
-https://bol-ai-docs.web.app
-
----
-
-# 🧠 Full Model Information
-
-| Property | Details |
-|---|---|
-| Model Name | Bol-AI |
-| AI Category | Conversational AI Assistant |
-| Developer | Vivek Vijay Dalvi |
-| Organization | MAHAVEER AI |
-| Base Model | MiniCPM-V-4.6 |
-| Base Model Developer | OpenBMB |
-| Architecture | Transformer |
-| Model Parameters | 1.7 Billion |
-| Parameter Count | 1.7B |
-| Context Length | 32K Tokens |
-| Approx Token Support | 32,000 Tokens |
-| Model Size | 2.42 GB |
-| Main Weight File | model.safetensors |
-| Quantization | Optimized |
-| Model Format | SafeTensors |
-| Inference Type | Text Generation |
-| Deployment Support | Local & Cloud |
-| Primary Language | English |
-| Supported Languages | English, Marathi, Hindi |
-| AI Personality System | Enabled |
-| Conversational Optimization | Enabled |
-| Smart Response Handling | Enabled |
-| Fine-Tuning | Applied |
-| Instruction Following | Optimized |
-| License | Apache-2.0 |
+- **Intelligent Conversational Responses:** Human-like, context-aware replies.
+- **Custom AI Personality System:** Unique identity and behavior engineered by Vivek Dalvi.
+- **Multilingual Understanding:** Natively supports English, Marathi, and Hindi.
+- **Expert Coding Assistance:** Optimized for instruction-following in various programming languages.
+- **Ultra-Lightweight & Fast:** At just 2.5 GB, it is designed for efficient local deployment on standard hardware.
+- **Privacy-Focused:** Runs 100% offline, ensuring user data remains secure.
+- **Mobile Ready:** Optimized to run on high-end mobile devices with sufficient RAM.
 
 ---
 
-# 🚀 Advanced AI Features
+## 🧠 Full Model Information
 
-- Intelligent conversational responses
-- Human-like AI communication
-- Custom AI personality system
-- Enhanced conversational intelligence
-- Multi-language understanding
-- Fast text generation
-- Smart instruction following
-- Assistant identity engineering
-- Optimized assistant interaction
-- AI response optimization
-- Fine-tuned conversational behavior
-- Context-aware replies
-- Dynamic response generation
-- Lightweight deployment support
-- Optimized inference performance
-- AI-powered communication system
-- Conversational response enhancement
-- Assistant behavior tuning
-- Transformer neural architecture
-- Smart assistant technologies
-- Enhanced communication flow
-- AI conversation engineering
-- Natural language understanding
-- Smart conversational optimization
-- Response quality enhancement
-- Intelligent assistant interaction
-- Enhanced response consistency
-- Optimized assistant communication
-- AI identity management
-- Conversational assistant architecture
+| Property                  | Details                                                                 |
+|---------------------------|-------------------------------------------------------------------------|
+| **Model Name**            | Bol-AI                                                                  |
+| **AI Category**           | Conversational AI Assistant                                             |
+| **Developer**             | Vivek Vijay Dalvi                                                       |
+| **Organization**          | MAHAVEER AI                                                             |
+| **Base Model**            | MiniCPM-V-4.6 (Heavily Fine-Tuned)                                      |
+| **Base Model Developer**  | OpenBMB                                                                 |
+| **Architecture**          | Transformer                                                             |
+| **Parameter Count**       | ~1.7 Billion                                                            |
+| **Context Length**        | 32,000 Tokens                                                           |
+| **Model Size**            | 2.42 GB                                                                 |
+| **Quantization**          | 4-bit Optimized (NF4)                                                   |
+| **Model Format**          | SafeTensors                                                             |
+| **Primary Language**      | English                                                                 |
+| **Supported Languages**   | English, Marathi, Hindi                                                 |
+| **License**               | Apache-2.0                                                              |
 
 ---
 
-# 📈 Model Capabilities
+## 🛠️ Training & Customization
 
-| Capability | Status |
-|---|---|
-| Conversational AI | Supported |
-| Question Answering | Supported |
-| Multi-language Responses | Supported |
-| Context Awareness | Supported |
-| Human-like Communication | Supported |
-| AI Personality System | Enabled |
-| Assistant Identity System | Enabled |
-| Instruction Following | Optimized |
-| Long-form Responses | Supported |
-| Lightweight Deployment | Supported |
-| Local Deployment | Supported |
-| Cloud Deployment | Supported |
-| Conversational Optimization | Enabled |
-| Smart Interaction Handling | Enabled |
-| Fine-Tuned Communication | Enabled |
-| AI Response Tuning | Enabled |
-| Intelligent Assistant Behavior | Enabled |
+Bol-AI's superior performance is the result of extensive fine-tuning and engineering, including:
+
+- **Conversational Fine-Tuning:** Trained on over 65,000 high-quality instruction rows.
+- **Identity Engineering:** Deeply baked identity ensures the model recognizes its creator and purpose.
+- **Response Optimization:** Tuned for accuracy, relevance, and consistency.
+- **Multilingual Data Integration:** Enhanced with custom datasets for Indian languages.
+- **Behavioral Tuning:** Personality and interaction style refined for a professional assistant experience.
 
 ---
 
-# 🛠️ Training & Customization
+## 💻 System Requirements
 
-Bol-AI includes:
-- Conversational fine-tuning
-- Personality enhancement
-- Response optimization
-- Assistant behavior tuning
-- Identity engineering
-- Conversational intelligence enhancement
-- Additional conversational datasets
-- Smart interaction improvements
-- AI communication optimization
-- Human-like response improvements
-- Smart assistant behavior engineering
-- Assistant response tuning
-- Conversational response optimization
-- AI interaction enhancement
-- Dynamic communication tuning
+Bol-AI is highly optimized to run on a wide range of devices.
 
----
+### Desktop / Laptop
 
-# 🧬 Architecture Details
+| Component         | Minimum (CPU-Only)                        | Recommended (GPU for Speed)               |
+|-------------------|-------------------------------------------|-------------------------------------------|
+| **System RAM**    | 8GB                                       | 16GB+                                     |
+| **GPU VRAM**      | Not Required                              | 4GB+ (NVIDIA CUDA Recommended)            |
+| **Storage**       | 5GB+                                      | 5GB+ (SSD Recommended)                    |
+| **OS**            | Windows 10/11, Linux, macOS               | Windows 10/11, Linux                      |
 
-| Specification | Value |
-|---|---|
-| AI Model Type | Large Language Model |
-| Base Architecture | Transformer |
-| Transformer Layers | Optimized |
-| Parameter Count | 1.7B |
-| Context Window | 32K Tokens |
-| Quantization | Optimized |
-| Inference Engine | Transformers |
-| Deployment Style | Local & Cloud |
-| Main Weight Format | SafeTensors |
-| Main Weight File | model.safetensors |
-| Response Engine | Conversational Text Generation |
-| Optimization Type | Fine-Tuned |
+### Mobile (via Termux or similar apps)
+
+| Component         | Minimum                                   |
+|-------------------|-------------------------------------------|
+| **Device RAM**    | 8GB                                       |
+| **Storage**       | 5GB+ Free Space                           |
+| **OS**            | Android 10+                               |
+| **Processor**     | Modern 8-core CPU (e.g., Snapdragon 7xx+) |
+
+*Note: Performance on mobile devices will be slower than on a desktop with a dedicated GPU.*
 
 ---
 
-# 📂 Repository Structure
-
-```text
-mahaveerai/bol-ai
-│
-├── model.safetensors
-├── config.json
-├── tokenizer.json
-├── tokenizer_config.json
-├── generation_config.json
-├── special_tokens_map.json
-├── README.md
-```
-
----
-
-# 💻 Recommended Requirements
-
-| Component | Recommended |
-|---|---|
-| GPU VRAM | 6GB+ |
-| RAM | 16GB+ |
-| Python | 3.10+ |
-| CUDA | Supported |
-| Storage | 5GB+ |
-| Operating System | Windows / Linux |
-| GPU Support | NVIDIA CUDA Recommended |
-
----
-
-# 🚀 Example Usage
+## 🚀 Example Usage
 
 ```python
+# Ensure you have the latest transformers and supporting libraries installed
+# pip install -U transformers accelerate bitsandbytes
+
 from transformers import AutoTokenizer, AutoModelForCausalLM
+import torch
 
-model_path = "mahaveerai/bol-ai"
+# Path to your local model or Hugging Face repo
+model_path = "MAHAVEER-AI/Bol-AI-v1.0"
 
-tokenizer = AutoTokenizer.from_pretrained(model_path)
-model = AutoModelForCausalLM.from_pretrained(model_path)
-
-prompt = "Hello Bol-AI"
-
-inputs = tokenizer(
-    prompt,
-    return_tensors="pt"
+tokenizer = AutoTokenizer.from_pretrained(model_path, trust_remote_code=True)
+model = AutoModelForCausalLM.from_pretrained(
+    model_path,
+    torch_dtype=torch.bfloat16,
+    device_map="auto",
+    trust_remote_code=True
 )
 
+# Prepare the prompt
+prompt = "User: Who is the developer of Bol-AI?\nBol-AI:"
+
+inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
+
+# Generate a response
 outputs = model.generate(
     **inputs,
     max_new_tokens=120,
-    temperature=0.7
+    temperature=0.2,
+    do_sample=True
 )
 
-print(
-    tokenizer.decode(
-        outputs[0],
-        skip_special_tokens=True
-    )
-)
-```
+response = tokenizer.decode(outputs, skip_special_tokens=True)
+print(response.split("Bol-AI:")[-1].strip())
 
----
 
 # 🔥 Why Bol-AI?
 
