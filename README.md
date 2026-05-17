@@ -8,6 +8,10 @@
   <b>Bol-AI — Custom Conversational AI Assistant</b>
 </p>
 
+<p align="center">
+  <img src="https://i.ibb.co/67Y0XcyV/v-1.png" width="320" alt="Bol-AI India Banner"/>
+</p>
+
 ---
 
 # 📌 Overview
@@ -30,19 +34,29 @@ Bol-AI is designed to provide fast, intelligent, and natural conversations while
 
 # 🧠 Model Information
 
-| Property            | Details                     |
-| ------------------- | --------------------------- |
-| Model Name          | Bol-AI                      |
-| Developer           | Vivek Vijay Dalvi           |
-| Organization        | MAHAVEER AI                 |
-| Base Model          | MiniCPM-V-4.6               |
-| Model Type          | Conversational AI Assistant |
-| Parameters          | 1.7 Billion                 |
-| Model Size          | 2.42 GB                     |
-| Primary Language    | English                     |
-| Supported Languages | English, Marathi, Hindi     |
-| Architecture        | Transformer-based           |
-| License             | Apache-2.0                  |
+| Property             | Details                     |
+| -------------------- | --------------------------- |
+| Model Name           | Bol-AI                      |
+| Developer            | Vivek Vijay Dalvi           |
+| Organization         | MAHAVEER AI                 |
+| Base Model           | MiniCPM-V-4.6               |
+| Model Type           | Conversational AI Assistant |
+| Parameters           | 1.7 Billion                 |
+| Context Length       | 32K Tokens                  |
+| Approx Token Support | 32,000 Tokens               |
+| Model Weight Size    | 2.42 GB                     |
+| Model Size           | 2.42 GB                     |
+| Primary Language     | English                     |
+| Supported Languages  | English, Marathi, Hindi     |
+| Architecture         | Transformer-based           |
+| License              | Apache-2.0                  |
+
+---
+
+# 🌐 Official Documentation
+
+Documentation Website:
+[https://bol-ai-docs.web.app](https://bol-ai-docs.web.app)
 
 ---
 
@@ -60,6 +74,31 @@ Bol-AI is designed to provide fast, intelligent, and natural conversations while
 
 ---
 
+# 🚀 Advanced AI Features
+
+* Intelligent conversational reasoning
+* Assistant personality system
+* Multi-language understanding
+* Human-like response generation
+* Fast text generation
+* Smart instruction following
+* Conversational optimization
+* Context-aware replies
+* AI identity system
+* Fine-tuned response behavior
+* Assistant communication tuning
+* Natural language processing
+* Lightweight deployment support
+* Optimized inference performance
+* Enhanced interaction handling
+* Transformer neural architecture
+* Custom response engineering
+* Dynamic assistant behavior
+* AI-powered communication
+* Smart conversational flow
+
+---
+
 # ⚡ Features
 
 * Intelligent conversational responses
@@ -71,6 +110,23 @@ Bol-AI is designed to provide fast, intelligent, and natural conversations while
 * Optimized assistant interaction
 * Enhanced conversational memory behavior
 * Custom response engineering
+
+---
+
+# 📈 Model Capabilities
+
+| Capability               | Availability |
+| ------------------------ | ------------ |
+| Chat & Conversation      | Yes          |
+| Question Answering       | Yes          |
+| Multi-language Support   | Yes          |
+| AI Personality System    | Yes          |
+| Context Awareness        | Yes          |
+| Smart Responses          | Yes          |
+| Assistant Identity       | Yes          |
+| Instruction Following    | Yes          |
+| Lightweight Deployment   | Yes          |
+| Fine-tuned Communication | Yes          |
 
 ---
 
@@ -186,6 +242,21 @@ This project includes custom fine-tuning and modifications developed by Vivek Vi
 
 Base model credit:
 MiniCPM-V-4.6 by OpenBMB — Apache-2.0 License.
+
+---
+
+# 🧾 Additional Information
+
+| Information        | Details                   |
+| ------------------ | ------------------------- |
+| AI Project         | Bol-AI                    |
+| Developer Alias    | MAHAVEER AI               |
+| Model Format       | SafeTensors               |
+| Response Style     | Conversational            |
+| Deployment Support | Local / Cloud             |
+| AI Category        | Assistant AI              |
+| Optimization       | Fine-tuned                |
+| Main Purpose       | Intelligent Conversations |
 
 ---
 
