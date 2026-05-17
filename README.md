@@ -95,38 +95,110 @@ Bol-AI is highly optimized to run on a wide range of devices.
 ## 🚀 Example Usage
 
 ```python
-# Ensure you have the latest transformers and supporting libraries installed
-# pip install -U transformers accelerate bitsandbytes
+# ==============================================================================
+# BOL-AI v1.0 PRO - OFFICIAL EXECUTION SCRIPT
+# Developer: Vivek Vijay Dalvi | Company: MAHAVEER AI
+# ==============================================================================
 
-from transformers import AutoTokenizer, AutoModelForCausalLM
+# SYSTEM REQUIREMENTS:
+# 1. Python 3.10 or higher installed.
+# 2. Minimum 8GB RAM (16GB recommended).
+# 3. Active internet connection for the first run to download weights (2.42 GB).
+
+# INSTALLATION COMMAND:
+# Run this in your terminal before starting the script:
+# pip install torch transformers accelerate bitsandbytes sentencepiece
+
 import torch
+import os
+from transformers import AutoTokenizer, AutoModel
 
-# Path to your local model or Hugging Face repo
-model_path = "MAHAVEER-AI/Bol-AI-v1.0"
+# Set environment variable for Windows UTF-8 support
+os.environ["PYTHONUTF8"] = "1"
 
-tokenizer = AutoTokenizer.from_pretrained(model_path, trust_remote_code=True)
-model = AutoModelForCausalLM.from_pretrained(
-    model_path,
-    torch_dtype=torch.bfloat16,
-    device_map="auto",
-    trust_remote_code=True
-)
+# Official Hugging Face Repository ID
+MODEL_ID = "mahaveerai/bol-ai"
 
-# Prepare the prompt
-prompt = "User: Who is the developer of Bol-AI?\nBol-AI:"
+# AI Inference Settings
+GEN_TEMPERATURE = 0.2
+MAX_NEW_TOKENS = 300
 
-inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
+def initialize_engine():
+    """Load tokenizer and model weights from the repository"""
+    print("Initializing Bol-AI v1.0 Pro Engine...")
+    try:
+        # Load tokenizer with remote code trust enabled
+        tokenizer = AutoTokenizer.from_pretrained(MODEL_ID, trust_remote_code=True)
+        
+        # Load model weights in BFloat16 precision for efficiency
+        model = AutoModel.from_pretrained(
+            MODEL_ID,
+            torch_dtype=torch.bfloat16,
+            device_map="auto",
+            trust_remote_code=True
+        )
+        model.eval()
+        return tokenizer, model
+    except Exception as e:
+        print(f"Error during initialization: {e}")
+        return None, None
 
-# Generate a response
-outputs = model.generate(
-    **inputs,
-    max_new_tokens=120,
-    temperature=0.2,
-    do_sample=True
-)
+def start_chat(tokenizer, model):
+    """Main conversation interface"""
+    print("\n" + "="*40)
+    print("BOL-AI v1.0 PRO IS ONLINE")
+    print("Developer: Vivek Vijay Dalvi")
+    print("Company: MAHAVEER AI")
+    print("="*40)
+    print("Type 'exit' or 'quit' to end the session.\n")
 
-response = tokenizer.decode(outputs, skip_special_tokens=True)
-print(response.split("Bol-AI:")[-1].strip())
+    while True:
+        user_input = input("You: ")
+        if user_input.lower() in ["exit", "quit"]:
+            print("Bol-AI: Session terminated.")
+            break
+
+        # Prepare message format for MiniCPM architecture
+        messages = [{"role": "user", "content": user_input}]
+        
+        print("Bol-AI: Thinking...", end="\r")
+        
+        try:
+            # Attempt optimized chat inference
+            response = model.chat(
+                image=None,
+                msgs=messages,
+                tokenizer=tokenizer,
+                sampling=True,
+                temperature=GEN_TEMPERATURE,
+                top_p=0.9
+            )
+            print(f"Bol-AI: {response}\n")
+            
+        except Exception:
+            # Fallback to standard autoregressive generation if chat fails
+            prompt = f"User: {user_input}\nBol-AI:"
+            inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
+            
+            with torch.no_grad():
+                outputs = model.generate(
+                    **inputs, 
+                    max_new_tokens=MAX_NEW_TOKENS,
+                    pad_token_id=tokenizer.eos_token_id
+                )
+            
+            decoded_output = tokenizer.decode(outputs[0], skip_special_tokens=True)
+            # Extract only the AI response part
+            final_text = decoded_output.split("Bol-AI:")[-1].strip()
+            print(f"Bol-AI: {final_text}\n")
+
+if __name__ == "__main__":
+    # Start the application
+    tk, md = initialize_engine()
+    if tk and md:
+        start_chat(tk, md)
+    else:
+        print("Failed to start Bol-AI. Please check your installation and connection.")
 ```
 
 
