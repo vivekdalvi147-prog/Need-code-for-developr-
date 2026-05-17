@@ -127,6 +127,7 @@ outputs = model.generate(
 
 response = tokenizer.decode(outputs, skip_special_tokens=True)
 print(response.split("Bol-AI:")[-1].strip())
+```
 
 
 # 🔥 Why Bol-AI?
